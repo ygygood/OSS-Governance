@@ -4,27 +4,35 @@ opensource governance
 # Contribution
 ## Rule
 ### CLA서명
-
+모든 Contributor는 CLA(Contributor License Agreement)에 서명해야 한다.
+Contributor의 저작물을 관리하면서 관리할 수 있는 저작권 분쟁을 줄이기 위해 Contributor에게 동의를 구하는 약정서이다.
+이를 완료해야만 Contributor가 될 수 있다.
 ### 저작권
+수정되는 파일의 상단에 아래와 같이 저작권과 라이선스가 표시되어야 한다.
+```
+Copyright***
+Apache License 2.0
+```
 ### 지식재산
+민감한 정보, 특허 등 기업의 지식재산 노출이 우려되는 코드 및 문서는 오픈되면 안된다.
+특히, 회사의 특허가 포함되어 있다면 이를 오픈소스 라이선스로 프로젝트에 기여해도 되는지 확인이 필요하다
 
 ## 절차
 
 ### Issue 생성 및 관리
-+ Issue유형
-- 프로그램 버그
-- 프로그램 개선사항 및 아이디어
-- 일반 문의
-- 
-+ 생성 및 관리
-- Issue를 생성하고 관리할 수 있는 Tools(Git-Issue, jira 등)를 사전에 정의하라
-- 식별된 Issue에 대해 중복으로 등록이 되는 것을 막아라
-- Issue Template을 작성하여 일관성있는 Issue Format을 유지하라
-- Issue Label을 생성하여 Issue를 효율적으로 
+1. Issue유형
+  - 프로그램 버그
+  - 프로그램 개선사항 및 아이디어
+  - 일반 문의 
+2. 생성 및 관리
+  - Issue를 생성하고 관리할 수 있는 Tools(Git-Issue, jira 등)를 사전에 정의하라
+  - 식별된 Issue에 대해 중복으로 등록이 되는 것을 막아라
+  - Issue Template을 작성하여 일관성있는 Issue Format을 유지하라
+  - Issue Label을 생성하여 Issue를 효율적으로 
 
 ### Pull Request
 Pull Request는 local에서 작업이 완료된 소스를 remote repository에 push를 요청하는 절차이며 아래 사항에 유의해야 한다
-+ 유의사항
+1. 유의사항
 - 기존에 생성된 Issue에 관련된 내용만 Pull Request를 요청하며, 요청 시에는 해당 Issue Number를 Mapping 해주어야 한다
 - Pull Request 요청 전 해당 프로젝트의 Pull Request 요건(CLA서명, Commit Rule 등)을 확인한다
 
@@ -35,6 +43,7 @@ Pull Request는 local에서 작업이 완료된 소스를 remote repository에 p
 - 모든 내용이 통과한 후 관리자는 검토 후에 Merge 여부를 검토한다
 
 ### Documentation
+
 
 ### Feedback
 관리자는 Contributor에게 프로그래밍 내역에 대해 상세한 설명을 요구할 수 있으며 그에 따라 개발된 소스의 Merge여부가 결정될 수 있다
